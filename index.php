@@ -1,4 +1,4 @@
-<?php include("./header_and_footer/header.html"); ?>
+<?php include("./header/header.html"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,4 +21,3 @@
     </main>
 </body>
 </html>
-<?php include("./header_and_footer/footer.html"); ?>
