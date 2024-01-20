@@ -16,19 +16,8 @@ body {
 }
 
 .logo {
-    height: 60px;
-    width: 105px;
-}
-
-.logo-panier{
-    height: 30px;
-    width: 30px;
-    margin-left: 20px;
-}
-
-.logo-recherche{
-height: 20px;
-width: 20px;
+    height: 50px;
+    width: 50px;
 }
 
 .panier-connexion{
@@ -38,26 +27,6 @@ width: 20px;
     margin: 20px;
 }
 
-.modifie-position-div {
-    display: flex;
-    align-items: center;
-}
-
-.bouton-connexion {
-    background-color: #ffffff;
-    border: 1px solid #333333;
-    color: #333333;
-    padding: 8px 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-}
-
-.bouton-connexion:hover {
-    background-color: #333333;
-    color: #ffffff;
-}
 
 /* Styles pour la section principale */
 main {
@@ -92,44 +61,34 @@ footer {
     text-align: center; 
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .style-lien {
-    color: #333333;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    margin: 0 10px;
-  }
-  
-  .style-lien:hover {
-    background-color: #eeeeee;
-  }
-  
-  #div-connexion {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-  
-  #btn-connexion {
-    color: #ffffff;
-    background-color: #333333;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-left: 300px;
-    cursor: pointer;
-  }
+/* Your existing CSS styles */
 
-  .categorie {
-    margin-bottom: 20px;
+/* Your existing CSS styles */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.modify-position-nav {
+  display: flex;
+  align-items: center;
+}
+
+.style-link {
+  color: #333333;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: 0 10px;
+}
+
+.style-link:hover {
+  background-color: #ff8c00;
+}
+
 
 h2.categorie {
     display: block;
@@ -187,22 +146,6 @@ mark.bleu {
     color:#0066ff;
     background: none;
 }
-
-/* Reste du code CSS... */
-  .ajouter-panier {
-    background-color: #fff23e;
-    color: #000000;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 10px;
-  }
-  
-  .ajouter-panier:hover {
-    background-color: #ffbb00;
-  }
 
   table {
     border-collapse: collapse;
