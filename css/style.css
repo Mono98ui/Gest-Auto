@@ -1,0 +1,235 @@
+/* Styles pour le corps de la page */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* Styles pour l'en-tête principal */
+#header-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    height: 60px;
+    width: 105px;
+}
+
+.logo-panier{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+
+.logo-recherche{
+height: 20px;
+width: 20px;
+}
+
+.panier-connexion{
+    display: flex;
+    align-items:end;
+    margin: right 10px;
+    margin: 20px;
+}
+
+.modifie-position-div {
+    display: flex;
+    align-items: center;
+}
+
+.bouton-connexion {
+    background-color: #ffffff;
+    border: 1px solid #333333;
+    color: #333333;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.bouton-connexion:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Styles pour la section principale */
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+.modifie-header {
+    font-size: 36px;
+    color: #333333;
+}
+
+#modifie-paragraphe {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 100px;
+}
+
+#modifie-paragraphe-connexion {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 50px;
+}
+
+/* Styles pour le pied de page */
+footer {
+    position:absolute;
+    width:100%;
+    bottom:0px;
+    background-color: #252525;
+    color: #ffffff;
+    text-align: center; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .style-lien {
+    color: #333333;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+  }
+  
+  .style-lien:hover {
+    background-color: #eeeeee;
+  }
+  
+  #div-connexion {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  #btn-connexion {
+    color: #ffffff;
+    background-color: #333333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 300px;
+    cursor: pointer;
+  }
+
+  .categorie {
+    margin-bottom: 20px;
+}
+
+h2.categorie {
+    display: block;
+    border: 0px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color:#ffffff ;
+    background-color:#0066ff;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.produit {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    text-align: left;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+  
+  .produit:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .produit img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .produit h3,
+  .produit p {
+    margin: 0;
+  }
+  
+  .produit p {
+    font-size: 14px;
+    color: #888;
+  }
+  mark.rouge {
+    color:#ff0000;
+    background: none;
+}
+
+mark.bleu {
+    color:#0066ff;
+    background: none;
+}
+
+/* Reste du code CSS... */
+  .ajouter-panier {
+    background-color: #fff23e;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .ajouter-panier:hover {
+    background-color: #ffbb00;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .btn-schedule {
+    background-color: #ffbb00;
+    color: #000000;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* This line adds a smooth transition effect */
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-schedule:hover {
+    background-color: #ffa500; /* This is the color change on hover */
+}
